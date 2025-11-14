@@ -15,7 +15,7 @@ const NoteCard = ({ note, onUpdate, onDelete }) => {
                     Update
                 </button>
                 <button
-                    onClick={() => onDelete(note.id)}
+                    onClick={() => onDelete(note._id)}
                     className='px-4 py-2 text-sm  bg-zinc-900/50 font-medium text-red-400/80 hover:bg-red-900/50 rounded-md transition-colors'
                 >
                     Delete

@@ -14,7 +14,6 @@ const UpdateNote = ({ note, onUpdateNote, onClose }) => {
 
     const handleSubmit = () => {
         if (!title.trim() && !content.trim()) {
-
             return;
         }
         onUpdateNote({
@@ -35,7 +34,6 @@ const UpdateNote = ({ note, onUpdateNote, onClose }) => {
                     type="text"
                     placeholder='Title'
                     className='w-full bg-transparent outline-none placeholder-zinc-400 text-lg font-semibold'
-
                     value={title}
                     onChange={(e) => setTitle(e.target.value)}
                 />
