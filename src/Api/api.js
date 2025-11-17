@@ -5,19 +5,19 @@ export const api = axios.create({
 })
 
 const createNote = (Note) =>{
-    return api.post('/create-note', Note)   
+    return api.post('Notes/create-note', Note)   
 }
 
 const getAllNotes = () =>{
-    return api.get('/get-all-notes')
+    return api.get('Notes/get-all-notes')
 }   
 
 const updateNote = (updatedNote) => {
-    return api.patch('/update-note', updatedNote);
+    return api.patch('Notes/update-note', updatedNote);
 }
 
 const deleteNote = (id) => {
-    return api.delete('/delete-note', { data: { _id: id } });
+    return api.delete('Notes/delete-note', { data: { _id: id } });
 }
 
 export{
