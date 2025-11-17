@@ -70,7 +70,7 @@ function App() {
                 </div>
 
                 < hr className="my-3 border-zinc-700" />
-
+                // view all notes
                 <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 px-8 pb-8 mt-10'>
                     {notes.map((note) => (
                         <NoteCard
