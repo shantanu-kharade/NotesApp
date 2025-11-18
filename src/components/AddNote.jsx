@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { createNote } from '../api/api.js';
+import { createNote } from '../Api/api.js';
 
 const AddNote = ({ onAddNote }) => {
 

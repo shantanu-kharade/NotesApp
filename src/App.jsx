@@ -3,7 +3,7 @@ import AddNote from './components/AddNote.jsx';
 import NoteCard from './components/NoteCard.jsx';
 import UpdateNote from './components/UpdateNote.jsx';
 import { useState, useEffect } from 'react';
-import { getAllNotes, updateNote, deleteNote } from './api/api.js';
+import { getAllNotes, updateNote, deleteNote } from './Api/api.js';
 
 function App() {
 
